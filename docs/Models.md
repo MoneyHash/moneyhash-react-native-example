@@ -814,7 +814,3 @@ export type VaultData = {
     - `cvv`: The CVV code for the card.
     - `save_card`: Indicates if the card should be saved.
     - `fingerprint`: A fingerprint associated with the card for additional security.
-
----
-
-This should cover all your models in the React Native SDK documentation. Let me know if you need further modifications or additions!

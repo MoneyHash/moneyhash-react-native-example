@@ -437,5 +437,3 @@ moneyHashSDK.updateDiscount("ZpmnoP9", discountItem)
 ```
 
 ---
-
-This documentation should now align well with the Flutter version and cover all the methods available in your React Native SDK. Let me know if you need any further adjustments!
