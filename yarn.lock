@@ -2007,6 +2007,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@moneyhash/reactnative-sdk@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@moneyhash/reactnative-sdk@npm:2.0.0"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: ead2ae1a21f89a27254afc2d79b616fd513a254cd021c92e3233d53313fa0c624aff7a757ca1c436c8225f91f79ef6550085a5ca1b979577bba36fae9c104740
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1":
   version: 5.1.1-v1
   resolution: "@nicolo-ribaudo/eslint-scope-5-internals@npm:5.1.1-v1"
@@ -2927,6 +2937,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@moneyhash/reactnative-sdk": 2.0.0
     "@react-native/babel-preset": 0.75.2
     "@react-native/eslint-config": 0.75.2
     "@react-native/metro-config": 0.75.2
