@@ -380,5 +380,3 @@ The MoneyHash SDK for React Native features various models to represent data str
 Please provide any feedback via a [GitHub Issue](https://github.com/MoneyHash/moneyhash-react-native-example/issues/new?template=bug_report.md).
 
 ---
-
-This guide now includes sections for updating fees and discounts with practical examples. Let me know if there’s anything else you’d like to add!
