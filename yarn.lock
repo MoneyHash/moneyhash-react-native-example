@@ -2007,13 +2007,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@moneyhash/reactnative-sdk@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@moneyhash/reactnative-sdk@npm:2.0.0"
+"@moneyhash/reactnative-sdk@npm:latest":
+  version: 2.0.4
+  resolution: "@moneyhash/reactnative-sdk@npm:2.0.4"
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: ead2ae1a21f89a27254afc2d79b616fd513a254cd021c92e3233d53313fa0c624aff7a757ca1c436c8225f91f79ef6550085a5ca1b979577bba36fae9c104740
+  checksum: fa7ea75a0ff0eb1d4558ddf4970b2309888e8287fbdced4b58b8bae876e89703f218b122dd5b9ecd57221837358709a65dbc3af8660f200002e69958e3ad6b36
   languageName: node
   linkType: hard
 
@@ -2937,7 +2937,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
-    "@moneyhash/reactnative-sdk": 2.0.0
+    "@moneyhash/reactnative-sdk": latest
     "@react-native/babel-preset": 0.75.2
     "@react-native/eslint-config": 0.75.2
     "@react-native/metro-config": 0.75.2
