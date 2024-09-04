@@ -215,7 +215,7 @@ const styles = StyleSheet.create({
 You can listen to different text field event like when the text field
 - Changed `onChange`
 - Focused `onFocus`
-- Blured `onBlur`
+- Blurred `onBlur`
 - Error Changed `onErrorChange`
 - Card Brand Change (Available on cardNumber field only) `onCardBrandChange`
 
@@ -228,8 +228,8 @@ You can listen to different text field event like when the text field
     isError && styles.inputError,
   ]}
   placeholder="#### #### #### ####"
-  onChange={() => {
-    console.log('Change');
+  onChange={({ isValid, errorMessage }) => {
+    console.log('Change', { isValid, errorMessage });
   }}
   onFocus={() => {
     console.log('Focus');
@@ -244,6 +244,26 @@ You can listen to different text field event like when the text field
     console.log('cardBrand', cardInfo);
   }}
 />
+```
+
+#### SecuredTextField Methods
+You can programmatically focus, blur, clear `SecureTextField` using ref to access internal methods
+
+```tsx
+import { SecureTextField, type SecureTextFieldRef } from '@moneyhash/reactnative-sdk'
+
+const cardNumberRef = useRef<SecureTextFieldRef>(null);
+
+<SecureTextField
+  ref={cardNumberRef}
+  name="cardNumber"
+/>
+```
+Then you will have access to
+```tsx
+cardNumberRef.current?.focus();
+cardNumberRef.current?.blur();
+cardNumberRef.current?.clear();
 ```
 
 #### Collecting the Card Data

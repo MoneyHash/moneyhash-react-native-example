@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@moneyhash/reactnative-sdk": "2.0.0",
+    "@moneyhash/reactnative-sdk": "latest",
     "react": "18.3.1",
     "react-native": "0.75.2"
   },
