@@ -257,15 +257,6 @@ const cardNumberRef = useRef<SecureTextFieldRef>(null);
 <SecureTextField
   ref={cardNumberRef}
   name="cardNumber"
-  style={({ isFocused, isError }) => [
-    styles.input,
-    isFocused && styles.inputFocused,
-    isError && styles.inputError,
-  ]}
-  placeholder="#### #### #### ####"
-  onCardBrandChange={(cardInfo) => {
-    console.log('cardBrand', cardInfo);
-  }}
 />
 ```
 Then you will have access to
