@@ -228,8 +228,8 @@ You can listen to different text field event like when the text field
     isError && styles.inputError,
   ]}
   placeholder="#### #### #### ####"
-  onChange={({ isValid, errorMessage }) => {
-    console.log('Change', { isValid, errorMessage });
+  onChange={({ isValid, length, errorMessage }) => {
+    console.log('Change', { isValid, length, errorMessage });
   }}
   onFocus={() => {
     console.log('Focus');
