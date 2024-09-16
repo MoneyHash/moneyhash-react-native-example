@@ -219,6 +219,8 @@ You can listen to different text field event like when the text field
 - Error Changed `onErrorChange`
 - Card Brand Change (Available on cardNumber field only) `onCardBrandChange`
 
+> **Note**: MoneyHash considers card number valid based on the length only. Card number with length from 13 to 19 are considered valid.
+
 ```typescript
 <SecureTextField
   name="cardNumber"
